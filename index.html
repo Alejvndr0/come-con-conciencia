@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Come con Conciencia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="antialiased">
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto flex items-center justify-between py-4 px-6">
+            <div class="text-2xl font-semibold text-pink-300">Come con Conciencia</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#inicio" class="text-gray-700 hover:text-pink-400">Inicio</a>
+                <a href="#sobre-nosotras" class="text-gray-700 hover:text-pink-400">Sobre Nosotras</a>
+                <a href="#servicios" class="text-gray-700 hover:text-pink-400">Servicios</a>
+                <a href="#recetas" class="text-gray-700 hover:text-pink-400">Recetas</a>
+                <a href="#blog" class="text-gray-700 hover:text-pink-400">Blog</a>
+                <a href="#contacto" class="text-gray-700 hover:text-pink-400">Contacto</a>
+            </div>
+            <a href="https://instagram.com" target="_blank" class="bg-pink-300 text-white px-4 py-2 rounded-full hover:bg-pink-400 flex items-center">
+                <i class="fab fa-instagram mr-2"></i> Síguenos
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-bg text-white py-20 text-center">
+        <div class="container mx-auto px-6 fade-in">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Aprende a comer con conciencia y mejorar tu bienestar</h1>
+            <p class="text-lg md:text-xl mb-6">Tips, recetas y asesoramiento nutricional para llevar una vida más saludable</p>
+            <a href="#sobre-nosotras" class="bg-pink-300 text-white px-6 py-3 rounded-full hover:bg-pink-400 hover-scale">Conoce más</a>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotras -->
+    <section id="sobre-nosotras" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Sobre Nosotras</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-12 fade-in">
+                <div class="text-center">
+                    <img src="" alt="Nutricionista" class="w-32 h-32 rounded-full mx-auto mb-4">
+                    <h3 class="text-xl font-semibold text-gray-800"></h3>
+                    <p class="text-gray-600"></p>
+                </div>
+                <div class="text-center">
+                    <img src="" alt="Nutricionista" class="w-32 h-32 rounded-full mx-auto mb-4">
+                    <h3 class="text-xl font-semibold text-gray-800"></h3>
+                    <p class="text-gray-600"></p>
+                </div>
+            </div>
+            <p class="text-center text-gray-600 mt-8 max-w-2xl mx-auto">Nuestra misión es guiarte hacia una alimentación consciente que nutra tu cuerpo y alma, con planes personalizados y un enfoque integral.</p>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-16 bg-pink-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Nuestros Servicios</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center hover-scale fade-in">
+                    <i class="fas fa-user-check text-4xl text-pink-300 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Asesorías Personalizadas</h3>
+                    <p class="text-gray-600">Planes de alimentación adaptados a tus necesidades y objetivos.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center hover-scale fade-in">
+                    <i class="fas fa-utensils text-4xl text-pink-300 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Planes de Alimentación</h3>
+                    <p class="text-gray-600">Diseños personalizados para mejorar tu salud y bienestar.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center hover-scale fade-in">
+                    <i class="fas fa-chalkboard-teacher text-4xl text-pink-300 mb-4"></i>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Talleres de Nutrición</h3>
+                    <p class="text-gray-600">Aprende a comer mejor con nuestras sesiones educativas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recetas -->
+    <section id="recetas" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Recetas Saludables</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover-scale fade-in">
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Receta" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Ensalada de Quinoa</h3>
+                        <p class="text-gray-600 mb-4">Una receta fresca y nutritiva, perfecta para el almuerzo.</p>
+                        <a href="https://instagram.com" target="_blank" class="bg-pink-300 text-white px-4 py-2 rounded-full hover:bg-pink-400">Ver receta</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover-scale fade-in">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc926?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Receta" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Smoothie Verde</h3>
+                        <p class="text-gray-600 mb-4">Un batido lleno de vitaminas para empezar el día.</p>
+                        <a href="https://instagram.com" target="_blank" class="bg-pink-300 text-white px-4 py-2 rounded-full hover:bg-pink-400">Ver receta</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover-scale fade-in">
+                    <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Receta" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Bowl de Avena</h3>
+                        <p class="text-gray-600 mb-4">Un desayuno saludable y lleno de energía.</p>
+                        <a href="https://instagram.com" target="_blank" class="bg-pink-300 text-white px-4 py-2 rounded-full hover:bg-pink-400">Ver receta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="py-16 bg-pink-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Blog y Tips</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-6 hover-scale fade-in">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">5 Tips para una Alimentación Consciente</h3>
+                    <p class="text-gray-600">Descubre cómo pequeños cambios pueden mejorar tu relación con la comida.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6 hover-scale fade-in">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Beneficios de los Superalimentos</h3>
+                    <p class="text-gray-600">Conoce los alimentos que potencian tu salud y cómo incluirlos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold text-gray-800 text-center mb-12">Contacto</h2>
+            <div class="max-w-lg mx-auto fade-in">
+                <form class="space-y-4">
+                    <div>
+                        <label for="nombre" class="block text-gray-700">Nombre</label>
+                        <input type="text" id="nombre" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:border-pink-300" placeholder="Tu nombre">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700">Correo Electrónico</label>
+                        <input type="email" id="email" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:border-pink-300" placeholder="Tu correo">
+                    </div>
+                    <div>
+                        <label for="mensaje" class="block text-gray-700">Mensaje</label>
+                        <textarea id="mensaje" class="w-full p-3 rounded-lg border border-gray-300 focus:outline-none focus:border-pink-300" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                    <button type="button" class="bg-pink-300 text-white px-6 py-3 rounded-full hover:bg-pink-400 w-full">Enviar</button>
+                </form>
+                <div class="flex justify-center space-x-4 mt-6">
+                    <a href="https://instagram.com" target="_blank" class="text-pink-300 hover:text-pink-400"><i class="fab fa-instagram text-2xl"></i></a>
+                    <a href="https://facebook.com" target="_blank" class="text-pink-300 hover:text-pink-400"><i class="fab fa-facebook text-2xl"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2025 Come con Conciencia. Todos los derechos reservados.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#inicio" class="hover:text-pink-300">Inicio</a>
+                    <a href="#sobre-nosotras" class="hover:text-pink-300">Sobre Nosotras</a>
+                    <a href="#servicios" class="hover:text-pink-300">Servicios</a>
+                    <a href="#recetas" class="hover:text-pink-300">Recetas</a>
+                    <a href="#blog" class="hover:text-pink-300">Blog</a>
+                    <a href="#contacto" class="hover:text-pink-300">Contacto</a>
+                </div>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="https://instagram.com" target="_blank" class="hover:text-pink-300"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank" class="hover:text-pink-300"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
